@@ -20,6 +20,9 @@ public class TestMammals {
 
         System.out.println("cat.toString: " + cat.toString());
 
+        System.out.println(dog.equals(cat));
+        System.out.println(dog.hashCode());
+
 
     }
 }

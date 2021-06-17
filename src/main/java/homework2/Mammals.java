@@ -2,7 +2,7 @@ package homework2;
 
 public class Mammals {
     public int kolichestvo;
-    public String vid;
+    private static String vid;
     public static double usy;
 
     void govorit(){
