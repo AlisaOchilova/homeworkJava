@@ -1,21 +1,18 @@
 package homework2;
 
-import homework2.Mammals;
-
 public class TestMammals {
 
     public static void main(String[] args) {
-        Mammals dog = new Mammals();
-        dog.vid = "собака";
-        dog.kolichestvo = 1000;
-        dog.usy = 20.0;
+        Animals dog = new Dog(AnimalType.DOG, "гав");
+        dog.setAnimalType(AnimalType.DOG);
+        dog.setAmountmount(1000);
+        dog.setUsy(20.0);
 
         System.out.println("dog.toString: " + dog.toString());
 
 
-        Mammals cat = new Mammals();
-        cat.vid = "кошка";
-        cat.kolichestvo = 1000;
+        Animals cat = new Cat(AnimalType.CAT, "мяу");
+        cat.amount = 1000;
         cat.usy = 20.0;
 
         System.out.println("cat.toString: " + cat.toString());
