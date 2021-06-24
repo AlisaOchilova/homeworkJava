@@ -1,7 +1,7 @@
 package homework2;
 
-public class Cat extends Animals{
-    public Cat(AnimalType animalType, String sound) {
-        super(animalType, sound);
+public class Cat {
+    public Cat(AnimalType animalType) {
+        super(animalType);
     }
 }
